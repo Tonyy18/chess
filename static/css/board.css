@@ -1,0 +1,26 @@
+.board {
+    width: 800px;
+    height: 800px;
+    font-size: 0px;
+}
+.board .cell {
+    width: calc(100% / 8);
+    height: calc(100% / 8);
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.board .cell.light {
+    background-color: #F7D08B;
+}
+.board .cell.dark {
+    background-color: #A77655;
+}
+.board .cell.active {
+    background-color: #5EB4E8;
+}
+.board .cell .piece {
+    height: 65%;
+}
